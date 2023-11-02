@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(data => {
             // Handle successful tweet post
-            responseDiv.innerText = `Tweet posted successfully! Tweet ID: ${data.tweetId}`;
+            responseDiv.innerText = `Tweet posted successfully! Tweet ID: ${data.id}`;
         })
         .catch(error => {
             // Handle error
